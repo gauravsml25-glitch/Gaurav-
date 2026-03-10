@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishakha's Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid #333;
+        }
+        h2 {
+            color: #0073e6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #333;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="profile.jpg" alt="Profile Picture">
+        <h1>Gaurav Singh</h1>
+        <p>Email: <a href="mailto:vishakha@example.com">gaurav@example.com</a> | Phone: +</p>
+        <p>Portfolio: <a href="https://www.example.com" target="_blank">www.example.com</a></p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I am a passionate web developer with knowledge of HTML, CSS, and basic JavaScript. I enjoy designing clean and responsive web pages.</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript Basics</li>
+            <li>Responsive Web Design</li>
+            <li>Basic Photoshop & GIMP</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Year</th>
+                <th>Degree</th>
+                <th>Institute</th>
+                <th>Percentage</th>
+            </tr>
+            <tr>
+                <td>2020-2023</td>
+                <td>BCA</td>
+                <td>XYZ College, Nagpur</td>
+                <td>78%</td>
+            </tr>
+            <tr>
+                <td>2018-2020</td>
+                <td>12th Science</td>
+                <td>ABC School, Nagpur</td>
+                <td>82%</td>
+            </tr>
+            <tr>
+                <td>2016-2018</td>
+                <td>10th</td>
+                <td>DEF School, Nagpur</td>
+                <td>88%</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <ul>
+            <li>Internship at Web Solutions Pvt. Ltd., Nagpur (3 months) – Worked on designing responsive web pages.</li>
+            <li>Freelance web projects for local businesses – Designed HTML/CSS templates.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Links</h2>
+        <ul>
+            <li>GitHub: <a href="https://github.com/vishakha" target="_blank">github.com/vishakha</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/vishakha" target="_blank">linkedin.com/in/vishakha</a></li>
+        </ul>
+    </section>
+
+</body>
+</html>
