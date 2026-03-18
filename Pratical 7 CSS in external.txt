@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Biography</a>
+        <a href="#">Achievements</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Dr. A.P.J. Abdul Kalam</h1>
+        <p>Missile Man of India</p>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Left Section -->
+        <div class="left">
+            <div class="box">
+                <img src="kalam.jpg" alt="APJ Abdul Kalam">
+                <p><strong>Born:</strong> 15 October 1931</p>
+                <p><strong>Died:</strong> 27 July 2015</p>
+                <p><strong>Profession:</strong> Scientist, President</p>
+            </div>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right">
+
+            <div class="box">
+                <h2>Biography</h2>
+                <p>
+                    Dr. A.P.J. Abdul Kalam was an Indian aerospace scientist and the 11th President of India.
+                    He played a key role in India's missile and nuclear programs.
+                </p>
+            </div>
+
+            <div class="box">
+                <h2>Achievements</h2>
+                <ul>
+                    <li>Bharat Ratna Award</li>
+                    <li>Padma Bhushan</li>
+                    <li>Padma Vibhushan</li>
+                    <li>Developed India's missile technology</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Tribute Page | External CSS</p>
+    </div>
+
+</body>
+</html>
