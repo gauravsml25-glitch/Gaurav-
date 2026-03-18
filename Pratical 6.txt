@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+<h2>Scholarship / Seminar Registration</h2>
+
+<form>
+
+    <!-- Personal Details -->
+    <fieldset>
+        <legend>Personal Details</legend>
+
+        Name: <input type="text" id="name" required><br><br>
+        Email: <input type="email" id="email" required><br><br>
+
+        Gender:
+        <input type="radio" name="gender" id="male" required> Male
+        <input type="radio" name="gender" id="female"> Female
+    </fieldset>
+
+    <br>
+
+    <!-- Academic Details -->
+    <fieldset>
+        <legend>Academic Details</legend>
+
+        Course:
+        <select id="course" required>
+            <option value="">Select</option>
+            <option>BCA</option>
+            <option>BSc</option>
+            <option>BTech</option>
+        </select><br><br>
+
+        Year:
+        <input type="radio" name="year" required> FY
+        <input type="radio" name="year"> SY
+        <input type="radio" name="year"> TY
+    </fieldset>
+
+    <br>
+
+    <!-- Preferences -->
+    <fieldset>
+        <legend>Preferences</legend>
+
+        Topics:
+        <input type="checkbox"> AI
+        <input type="checkbox"> Web Dev
+        <input type="checkbox"> Cyber Security
+        <br><br>
+
+        Accommodation:
+        <input type="radio" name="stay" required> Yes
+        <input type="radio" name="stay"> No
+    </fieldset>
+
+    <br>
+
+    <!-- Submit -->
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
