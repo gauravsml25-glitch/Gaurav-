@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tribute Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Header Section */
+        .header {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 30px;
+        }
+
+        /* Main Layout */
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+
+        .left {
+            width: 30%;
+            padding: 20px;
+        }
+
+        .right {
+            width: 70%;
+            padding: 20px;
+        }
+
+        /* Image Styling */
+        img {
+            width: 100%;
+            border: 3px solid #333;
+            border-radius: 10px;
+        }
+
+        /* Content Box */
+        .box {
+            background-color: white;
+            padding: 15px;
+            border: 2px solid #ccc;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Biography</a>
+        <a href="#">Achievements</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Dr. A.P.J. Abdul Kalam</h1>
+        <p>Missile Man of India</p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+
+        <!-- Left Section -->
+        <div class="left">
+            <div class="box">
+                <img src="kalam.jpg" alt="APJ Abdul Kalam">
+                <p><strong>Born:</strong> 15 October 1931</p>
+                <p><strong>Died:</strong> 27 July 2015</p>
+                <p><strong>Profession:</strong> Scientist, President</p>
+            </div>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right">
+            <div class="box">
+                <h2>Biography</h2>
+                <p>
+                    Dr. A.P.J. Abdul Kalam was an Indian aerospace scientist and the 11th President of India.
+                    He played a key role in India's missile and nuclear programs.
+                </p>
+            </div>
+
+            <div class="box">
+                <h2>Achievements</h2>
+                <ul>
+                    <li>Bharat Ratna Award</li>
+                    <li>Padma Bhushan</li>
+                    <li>Padma Vibhushan</li>
+                    <li>Developed India's missile technology</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Tribute Page | Designed with Internal CSS</p>
+    </div>
+
+</body>
+</html>
